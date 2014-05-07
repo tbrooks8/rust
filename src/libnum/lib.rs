@@ -25,6 +25,7 @@ extern crate rand;
 pub mod bigint;
 pub mod rational;
 pub mod complex;
+pub mod bigdec;
 
 pub trait Integer: Num + Ord
                  + Div<Self, Self>
